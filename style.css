@@ -24,9 +24,10 @@ body {
     background-color: white;
     border: 3px solid black;
     width: 4vw;
+    height: 4vw;
     min-width: 40px;
+    min-height: 40px;
     font-weight: bold;
-    aspect-ratio: 1 / 1;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -34,12 +35,12 @@ body {
 }
 
 .current-number {
-    aspect-ratio: 1 / 1;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 140px;
+    height: 140px;
     border: 8px solid rgb(202, 1, 1);
     color: rgb(202, 0, 0);
     font-size: 5rem;
