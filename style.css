@@ -73,6 +73,6 @@ button {
     margin-bottom: 3rem;
 }
 
-button:hover {
+button:active {
     transform: scale(1.1);
 }
