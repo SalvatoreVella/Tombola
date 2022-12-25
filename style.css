@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 222, 252);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.big-number-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    box-sizing: border-box;
+    background-color: white;
+    border: 3px solid black;
+    width: 4vw;
+    min-width: 40px;
+    font-weight: bold;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-number {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    border: 8px solid rgb(202, 1, 1);
+    color: rgb(202, 0, 0);
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: rgb(217, 205, 92);
+    margin-top: 2rem;
+}
+
+.number-selected {
+    box-sizing: border-box;
+    border: 3px solid rgb(202, 0, 0);
+    color: rgb(206, 0, 0);
+    background-color: rgb(217, 205, 92);
+}
+
+.bestemmia {
+    font-size: 24px;
+    min-height: 30px;
+}
+
+button {
+    width: 90vw;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: rgb(217, 205, 92);
+    font-weight: bold;
+    transition: all 0.2s;
+    margin-bottom: 3rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
