@@ -47,6 +47,7 @@ body {
     font-weight: bold;
     background-color: rgb(217, 205, 92);
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .number-selected {
