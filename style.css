@@ -56,11 +56,6 @@ body {
     background-color: rgb(217, 205, 92);
 }
 
-.bestemmia {
-    font-size: 24px;
-    min-height: 30px;
-}
-
 button {
     width: 90vw;
     margin: 1rem auto;
