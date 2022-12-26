@@ -11,11 +11,11 @@ body {
     background-size: auto 100vh;
     background-attachment: fixed;
     padding: 1rem;
-    color: white;
+    color: rgb(255, 242, 0);
 }
 
 .menu {
-    padding: 10vh;
+    padding: 5vh;
 }
 
 .container {
@@ -111,6 +111,7 @@ button:active, .menu-btn:active {
 
 h2 {
     text-align: center;
+    margin-top: 4rem;
 }
 
 .container-center {
