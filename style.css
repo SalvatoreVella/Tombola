@@ -15,7 +15,7 @@ body {
 }
 
 .menu {
-    padding: 5vh;
+    padding: 2vh;
 }
 
 .container {
@@ -111,7 +111,7 @@ button:active, .menu-btn:active {
 
 h2 {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .container-center {
