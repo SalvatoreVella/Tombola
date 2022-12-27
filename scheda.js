@@ -46,14 +46,17 @@ file[2].splice(0, 5);
 file[2].forEach(num => {
     num.innerHTML = "";
 })
-
+const guida = document.querySelector(".guida");
 $numeroScheda.forEach(numero => {
     if (!numero.innerHTML) {
         numero.style.backgroundColor = "darkblue"
     }
     numero.addEventListener("click", () => {
         if (numero.innerHTML) {
-            numero.classList.toggle("number-selected")
+            numero.classList.toggle("number-selected");
+            if (guida.innerHTML) {
+                guida.innerHTML = "";
+            }
         }
     })
 })
