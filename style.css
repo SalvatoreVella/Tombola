@@ -134,7 +134,7 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 5px 12px 12px rgba(0, 0, 0, 0.173);
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 .prima-fila, .seconda-fila, .terza-fila {
     display: flex;
